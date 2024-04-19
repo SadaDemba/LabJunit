@@ -8,6 +8,8 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		Calculatrice c = new Calculatrice();
 
+		System.out.print("Bienvenue : ");
+
 		System.out.print("Veuillez saisir le premier élément : ");
 		double a = scanner.nextDouble();
 
