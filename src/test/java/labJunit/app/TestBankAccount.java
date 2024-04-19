@@ -36,6 +36,5 @@ public class TestBankAccount {
         } catch (IllegalArgumentException e) {
             assertEquals("Le montant du débit dépasse le solde disponible", e.getMessage());
         }
-
     }
 }
